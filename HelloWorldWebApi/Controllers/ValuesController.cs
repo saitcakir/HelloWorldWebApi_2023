@@ -15,6 +15,7 @@ namespace HelloWorldWebApi.Controllers
             messages.Add(new AppMessage() { Message = "Hello World!" });
             messages.Add(new AppMessage() { Message = "Hello Galaxy!" });
             messages.Add(new AppMessage() { Message = "Hello Universe!" });
+            messages.Add(new AppMessage() { Message = "Hello İstanbul!" });
             return messages;
         }
     }
